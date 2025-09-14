@@ -1,0 +1,9 @@
+# build folders
+build/
+
+# clangd files
+.cache/
+
+# IDE files
+.vscode/
+.vs/
