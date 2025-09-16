@@ -1,5 +1,5 @@
 target_sources(syscore 
-    PRIVATE 
+    PUBLIC 
         FILE_SET kernel_headers
         TYPE HEADERS
         FILES
