@@ -3,7 +3,7 @@
 #include <handleapi.h>
 #include <synchapi.h>
 #include <winbase.h>
-#include "Semaphore.hpp"
+#include "kernel/Semaphore.hpp"
 
 struct SemaphoreData
 {

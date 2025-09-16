@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <synchapi.h>
-#include "Mutex.hpp"
+#include "kernel/Mutex.hpp"
 
 struct MutexData
 {

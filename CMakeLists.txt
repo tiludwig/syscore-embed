@@ -13,5 +13,6 @@ set_target_properties(syscore PROPERTIES
     CXX_STANDARD_REQUIRED ON
     CXX_EXTENSIONS OFF)
 
+add_subdirectory(include)
 add_subdirectory(drivers)
 add_subdirectory(kernel)

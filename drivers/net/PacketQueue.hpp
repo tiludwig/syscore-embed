@@ -2,7 +2,7 @@
 
 #include <cstdint>
 #include <cstring>
-#include "Semaphore.hpp"
+#include "kernel/Semaphore.hpp"
 #include "Packet.hpp"
 
 namespace net
