@@ -5,7 +5,7 @@ target_sources(syscore
         FILES
             Semaphore.hpp
             Mutex.hpp
-            Queue.hpp
-            RingBuffer.hpp
-            Atomic.hpp
+            LockGuard.hpp
 )
+
+add_subdirectory(win32)
